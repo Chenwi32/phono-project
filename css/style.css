@@ -174,7 +174,7 @@ img{
 
 .section-footer{
     background: var(--primary-Color);
-       padding: 10px;
+       padding: 1.5em;
          color: #fff;
     
  }
@@ -182,7 +182,7 @@ img{
 .section-footer .container{
     grid-template-columns: repeat(4, 1fr);
                background: var(--primary-Color);
-                 grid-gap: 10px;
+                 grid-gap: 1.5rem;
                   display: grid;
  }
 
@@ -195,7 +195,7 @@ img{
  }
 
 .section-footer a > i{
-    margin-left: 15px;
+    margin-left: 1.5rem;
           color: rgb(153, 139, 139);  
  }
 
@@ -353,15 +353,14 @@ img{
 
  .section-footer .container{
     grid-template-columns: inherit;
+           padding-bottom: 0;
+            margin-bottom: 0;
                text-align: center;
+                 grid-gap: 0.1em;                   
   }
 
  .section-footer .container div:nth-child(2),
  .section-footer .container div:nth-child(3){
      display: none;
-  }
- 
- .body{
-      height: 500px;
   }
 }
