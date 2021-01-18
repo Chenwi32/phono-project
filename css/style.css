@@ -367,4 +367,18 @@ img{
  .section-footer .container div:nth-child(3){
      display: none;
   }
+  .email-form .form-control{
+    background-color: transparent ;
+       border-radius: 20px;
+         font-family: inherit;
+           font-size: 20px;
+             padding: 7px;
+             display: inline-block;
+             outline: 0;   
+              height: 45px;  
+              border: 0;
+              margin: 0;    
+               width: 100%;    
+               color: #ddd;    
+ }
 }
