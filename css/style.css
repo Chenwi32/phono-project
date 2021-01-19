@@ -153,14 +153,16 @@ img{
 
 .section-c .gallery img {
     height: 100%;
-     width: 92%;
+     width: 100%;
  }
 
 .gallery{
     transition: 1s;
       grid-gap: 0.2rem;
-       padding: 00.2rem;
+       padding: 0 0.2rem;
         height: 100%;
+        width: 96%;
+        margin:auto;
  }
 
  .gallery img:hover{
