@@ -174,7 +174,7 @@ img{
 
 .section-footer{
     background: var(--primary-Color);
-       padding: 1.5em;
+       padding: 1em;
          color: #fff;
     
  }
@@ -375,10 +375,10 @@ img{
              padding: 7px;
              display: inline-block;
              outline: 0;   
-              height: 45px;  
+              height: 2.3em;  
               border: 0;
               margin: 0;    
-               width: 100%;    
+               width: 50%;    
                color: #ddd;    
  }
 }
