@@ -173,10 +173,11 @@ img{
 /*footer*/
 
 .section-footer{
-    background: var(--primary-Color);
-       padding: 1em;
-         color: #fff;
-    
+    padding-bottom: 0;
+     margin-bottom: 0;
+        margin-top: 0.3rem;
+        background: var(--primary-Color);
+             color: #fff;          
  }
 
 .section-footer .container{
@@ -328,7 +329,9 @@ img{
 /*mediaQ section C*/
  
  .section-c .gallery img {
-    padding: 0px;
+    padding: 0 0.3rem;
+     height: auto;
+     margin: 0.2rem;
       width: 100%;
   }
 
@@ -342,9 +345,7 @@ img{
   }
 
   .section-c .gallery { 
-    grid-template-columns: repeat(1, 1fr);
-                  display: grid; 
-                    
+    display: contents;
  }
 
   .gallery img:hover{
@@ -357,7 +358,7 @@ img{
 
  .section-footer .container{
     grid-template-columns: inherit;
-           padding-bottom: 0;
+           padding-bottom: 0.5em;
             margin-bottom: 0;
                text-align: center;
                  grid-gap: 0.1em;                   
